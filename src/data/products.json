@@ -1,0 +1,47 @@
+
+
+
+[
+  {
+    "id": 1,
+    "name": "Product 1",
+    "image": "/images/product1.jpg",
+    "price": 29.99,
+    "description": "This is an awesome product."
+  },
+  {
+    "id": 2,
+    "name": "Puma Shoes ",
+    "image": "/images/product2.jpg",
+    "price": 39.99,
+    "description": "This product is great for your needs."
+  },
+  {
+    "id": 3,
+    "name": "Shoes for SportsMan ", 
+    "image": "/images/product3.jpg",
+    "price": 19.99,
+    "description": "An affordable and reliable product."
+  },
+  {
+    "id": 4,
+    "name": "PartyWear Shoes",
+    "image": "/images/product4.jpg",
+    "price": 30.99,
+    "description": "An affordable and reliable product."
+  },
+  {
+    "id": 5,
+    "name": "Product 5",
+    "image": "/images/product5.jpg",
+    "price": 49.99,
+    "description": "An affordable and reliable product."
+  },
+  {
+    "id": 6,
+    "name": "Product 6",
+    "image": "/images/product6.jpg",
+    "price": 58.99,
+    "description": "An affordable and reliable product."
+  }
+]
