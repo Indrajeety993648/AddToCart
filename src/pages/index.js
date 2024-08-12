@@ -1,18 +1,20 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import ProductCard from '../components/ProductCard';
 import products from '../data/products.json';
 
 export default function Home() {
   const [cart, setCart] = useState([]);
 
-  const addToCart = (product) => {
-    const exists = cart.find(item => item.id === product.id);
-    if (exists) {
-      setCart(cart.map(item => 
-        item.id === product.id ? { ...item, quantity: item.quantity + 1 } : item
-      ));
+  const addToCart = (product, quantity) => {
+    const existingProductIndex = cart.findIndex(item => item.id === product.id);
+    if (existingProductIndex > -1) {
+      // Product already in cart, update quantity
+      const updatedCart = [...cart];
+      updatedCart[existingProductIndex].quantity += quantity;
+      setCart(updatedCart);
     } else {
-      setCart([...cart, { ...product, quantity: 1 }]);
+      // Add new product to cart
+      setCart([...cart, { ...product, quantity }]);
     }
   };
 

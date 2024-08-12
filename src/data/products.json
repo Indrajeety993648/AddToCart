@@ -43,5 +43,12 @@
     "image": "/images/product6.jpg",
     "price": 58.99,
     "description": "An affordable and reliable product."
+  },
+  {
+    "id": 7,
+    "name": "Adidas Shoes",
+    "image": "/images/product6.jpg",
+    "price": 58.99,
+    "description": "An affordable and reliable product."
   }
 ]
